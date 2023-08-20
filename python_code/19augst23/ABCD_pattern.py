@@ -1,5 +1,5 @@
-row=int(input('Enter number of rows\t'))
-for i in range(1,row):
-	for j in range(65,65+i):
-		print(chr(j),end='')
-	print('')
+row=int(input("enter number of rows\t:"))
+for i in range(0,row+1):
+    for j in range(0,i):
+        print(chr(65+j),end="")
+    print('')
